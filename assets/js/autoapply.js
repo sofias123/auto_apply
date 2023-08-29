@@ -27,84 +27,84 @@ const testSleep = async () => {
     var storedHyperlinkInnerHTMLList = JSON.parse(localStorage.getItem("hyperlinkInnerHTMLList"));
     if(storedHyperlinkInnerHTMLList[2] == "Full Time") {
         window.location.href = "job_details.html?l=true&apply=true";
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[3] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_elisa.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[4] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_rostele.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[5] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_volia.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[6] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_ziggo2.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[7] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_rostele2.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[8] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_volia2.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[9] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_software_engineer.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[10] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_software_developer.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[11] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_java_developer.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[12] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_mechanical_engineer.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[13] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_mechanical_specialist.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[14] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_senior_software_engineer.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[15] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_product_owner.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
     else if(storedHyperlinkInnerHTMLList[16] == "Full Time") {
-        await sleep(4000);;
+        await sleep(2500);
         window.location.href = "job_details_content_writer.html?l=true&apply=true"; 
-        await sleep(4000);;
+        await sleep(2500);
     }
 }
 
 async function applyNowJob(jobIndex) {
     document.getElementById("applyNow").innerHTML = 'Applying!';
     document.getElementById("preloader-apply").style.display="block";
-    await sleep(5000);
+    await sleep(3500);
     var jobName = document.getElementById("jobTitle").textContent;
     var desiredJob = localStorage.getItem("applyRole");
     // Get the array from localStorage and parse it
@@ -138,7 +138,7 @@ async function applyNowJob(jobIndex) {
     // Save the updated array back to localStorage
     localStorage.setItem('jobappliedDetails', JSON.stringify(storedArray));
     console.log(innerHTMLs);
-    await sleep(5000);
+    await sleep(3500);
     window.location.href = "job_listing.html?l=true"; 
     
 }
@@ -224,6 +224,11 @@ function getLatestHyperlink(){
         localStorage.setItem("hyperlinkInnerHTMLList", JSON.stringify(hyperlinkInnerHTMLList));
         localStorage.setItem('isAutoApplying', false);
     }
+}
+
+function applytojob() {
+
+    document.getElementById("applyNow").innerHTML = 'Applied!';
 }
 
 
