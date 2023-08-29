@@ -43,6 +43,7 @@ if (isset($_POST['Do'])) {
         if ($res) {
             $msg['id'] = 1;
             $msg['msg'] = 'Inserted successfully';
+            $msg['username'] = $data['name'];
             $_SESSION['applyRole'] = $data['des_role'];
         } else {
             $msg['msg'] = 'Something went wrong';
@@ -51,7 +52,7 @@ if (isset($_POST['Do'])) {
         }
         die(json_encode($msg));
     }  else if ($_POST['Do'] == 'CheckLoginCred') {
-        $sql = 'select userID,password,des_role from rms_user where email = "'.$data['email'].'" ';
+        $sql = 'select userID,password,des_role,firstName from rms_user where email = "'.$data['email'].'" ';
         $res = $newClass->query($sql);
 
         if ($res && mysqli_num_rows($res) >= 1) {
@@ -59,6 +60,7 @@ if (isset($_POST['Do'])) {
             if(password_verify($data['password'], $row['password'])) {
                 $msg['id'] = 1;
                 $msg['msg'] = 'Loggedin Successfully';
+                $msg['username'] = $row['firstName'];
                 $_SESSION['loginPageVisited'] = true;
                 $_SESSION['applyRole'] = $row['des_role'];
                 $role =  $row['des_role'];

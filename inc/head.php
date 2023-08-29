@@ -11,7 +11,7 @@
     $title = explode('.php', $file);
  ?>
 
-<title><?php echo ucfirst($title[0]); ?> - ALL Win </title>
+<title>Auto Apply</title>
 
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
