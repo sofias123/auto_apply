@@ -24,32 +24,39 @@
         <script>
             function myFunction(){
                 const queryString = window.location.search;
-                    console.log(queryString);
-                    const urlParams = new URLSearchParams(queryString);
-                    console.log(urlParams);
-                    const isLoggedIn = urlParams.get('l');              
-                    if(isLoggedIn) {
-                        document.getElementById("notlogged").style.display="none";
-                        document.getElementById("islogged").style.display="block";
-                        var loggedusername = localStorage.getItem('loggedUserName');  
-                        document.getElementById("loggeduser").innerHTML="Hi "+loggedusername;
-                    } else {
-                        document.getElementById("islogged").style.display="none";
-                    document.getElementById("notlogged").style.display="block";
-                    }
-                    const isApply = urlParams.get('apply');
-                    if(isApply == "true"){
-                        document.getElementById("applying").style.display = "inline-block";
-                        document.getElementById("autoApply").style.display = "none";
-                        applyNowJob(16);
-                    }
-                
+                console.log(queryString);
+                const urlParams = new URLSearchParams(queryString);
+                console.log(urlParams);
+                const isLoggedIn = localStorage.getItem('l');              
+                if(isLoggedIn) {
+                    document.getElementById("notlogged").style.display="none";
+                    document.getElementById("islogged").style.display="block";
+                    var loggedusername = localStorage.getItem('loggedUserName');  
+                    document.getElementById("loggeduser").innerHTML="Hi "+loggedusername;
+                } else {
+                    document.getElementById("islogged").style.display="none";
+                document.getElementById("notlogged").style.display="block";
+                }
+                const isApply = urlParams.get('apply');
+                if(isApply == "true"){
+                    document.getElementById("applying").style.display = "inline-block";
+                    document.getElementById("autoApply").style.display = "none";
+                    applyNowJob(16);
+                }
             }
             function logout(){
                 localStorage.setItem('l', false);
                  document.getElementById("notlogged").style.display="block";
                 document.getElementById("islogged").style.display="none";
                 localStorage.clear();
+            }
+            function applyforthejob(){
+                const isLoggedIn = localStorage.getItem('l');              
+                if(isLoggedIn && isLoggedIn != "false") {
+                    applytojob();
+                } else {
+                    window.location.href = "login.php";
+                }
             }
         </script>
    </head>
@@ -235,7 +242,7 @@
                               <li>Application date : <span>12 Sep 2020</span></li>
                           </ul>
                          <div class="apply-btn2">
-                            <a href="#" class="btn" id="applyNow">Apply Now</a>
+                            <a href="#" class="btn" onclick="applyforthejob()" id="applyNow">Apply Now</a>
                          </div>
                        </div>
                         <div class="post-details4  mb-50">

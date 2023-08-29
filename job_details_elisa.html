@@ -50,6 +50,14 @@
                 document.getElementById("islogged").style.display="none";
                 localStorage.clear();
             }
+            function applyforthejob(){
+                const isLoggedIn = localStorage.getItem('l');              
+                if(isLoggedIn && isLoggedIn != "false") {
+                    applytojob();
+                } else {
+                    window.location.href = "login.php";
+                }
+            }
         </script>
    </head>
 
@@ -234,7 +242,7 @@
                               <li>Application date : <span>12 Sep 2020</span></li>
                           </ul>
                          <div class="apply-btn2">
-                            <a href="#" class="btn" id="applyNow">Apply Now</a>
+                             <a href="#" class="btn" onclick="applyforthejob()" id="applyNow">Apply Now</a>
                          </div>
                        </div>
                         <div class="post-details4  mb-50">

@@ -1,62 +1,26 @@
 {
     "email": [
-        "sofia1@gmail.com"
+        "avinashvadivel9@gmail.com"
     ],
     "mobile": [
-        "7721567890",
+        "7721544183",
         "3544513657",
         "354451365760"
     ],
     "dob": [
-        "1993-05- 05"
+        "1996-01- 25"
     ],
-    "skills": {
-        "0": "LANGUAGES",
-        "1": "Angular",
-        "2": "TypeScript",
-        "3": "HTML5",
-        "4": "CSS",
-        "5": "Bootstrap",
-        "6": "Java",
-        "7": "Python",
-        "8": "jQuery",
-        "9": "SQL",
-        "10": "PostgreSQL",
-        "11": "Django",
-        "12": "Apache Kafka",
-        "13": "Mobile &amp; Desktop Design",
-        "14": "Apache Hadoop",
-        "15": "Apache Spark",
-        "17": "Oracle",
-        "18": "MySQL",
-        "20": "Microsoft SQL Server",
-        "21": "MongoDB",
-        "22": "ETL (extract",
-        "23": "transform",
-        "24": "load) processes",
-        "25": "data modeling",
-        "26": "Tableau",
-        "27": "Power BI",
-        "28": "Machine learning &amp; AI",
-        "29": "DevOps Skills",
-        "30": "AWS &amp; Azure",
-        "31": "Windows &amp; Linux",
-        "33": "XML &amp; JSON",
-        "34": "GIT",
-        "35": "Bit Bucket",
-        "36": "Jenkins",
-        "37": "Docker &amp; Kubernetes",
-        "38": "Dynatrace",
-        "39": "Splunk &amp; Prometheus",
-        "40": "Log Analytics",
-        "41": "JBoss",
-        "42": "Apache Tomcat"
-    },
+    "skills": [
+        "Nivetha Thangavel",
+        "Java",
+        "Physics",
+        "Social"
+    ],
     "name": [
-        "\r\nAVINASH VADIVEL"
+        "\r\nMythili S"
     ],
-    "text": "\r\nAVINASH VADIVEL \r\nCoventry, CV1 2DR sofia1@gmail.com  7721567890       2595879-354451365760-22542500Visa Type: Tier 2\r\nDOB: 05-05-1993\r\nEDUCATION \r\nXYZ College of Engineering and Technology\r\n2011 - 2015\r\nGPA: 8.8 \/ 10.0\r\nB.E. Computer Science Engineering\r\nSKILLSET \r\nLANGUAGES\r\nAngular, TypeScript, HTML5, CSS, Bootstrap\r\nJava, Python, jQuery, SQL, PostgreSQL, Django\r\nApache Kafka\r\nMobile &amp; Desktop Design\r\nApache Hadoop, Apache Spark, Apache Kafka\r\nOracle, MySQL, PostgreSQL, Microsoft SQL Server\r\nMongoDB\r\nETL (extract, transform, load) processes, data modeling\r\nTableau, Power BI\r\nMachine learning &amp; AI\r\nDevOps Skills\r\nAWS &amp; Azure\r\nWindows &amp; Linux\r\nPython, XML &amp; JSON\r\nGIT, Bit Bucket, Jenkins\r\nDocker &amp; Kubernetes\r\nDynatrace, Splunk &amp; Prometheus\r\nLog Analytics, JBoss, Apache Tomcat\r\n\r\nWORK EXPERIENCE\r\nTECHNICAL CONSULTANT\r\nConfigured clusters and nodes, including network settings, security, and backup and recovery procedures.\r\nMonitored performance and health using tools such as Prometheus, Grafana, and ELK stack.\r\nMaintained by applying patches and upgrades, ensuring compatibility with other systems, and troubleshooting issues.\r\nDesigned, developed, and maintained data pipelines to collect, process, and transform data from various sources using technologies such as Apache Kafka, Apache NiFi, and Python.\r\nCollaborated with data scientists and business analysts to understand their data needs and helped them gain insights from the data using SQL and Tableau.\r\nProvided technical consulting to clients, helping them to design and implement data solutions that meet their specific needs.\r\nContainerized applications and services using Docker and deployed them to Kubernetes clusters.\r\nImplemented and configured monitoring and alerting using Prometheus and Grafana to ensure system availability and performance.\r\nAutomated manual operation activities using Ansible and Terraform to streamline the deployment and configuration of infrastructure and applications.\r\n",
-    "filename": "resumes\/03-99-Resume.docx",
+    "text": "\r\nMythili S \r\nCoventry, CV1 2DR avinashvadivel9@gmail.com  7721544183       avinashvadivel.com2595879-354451365760-22542500Visa Type: Tier 4 Dependent\r\nDOB: 25-01-1996\r\nEDUCATION \r\nRMK College of Engineering and Technology\r\n2013 - 2017\r\nGPA: 7.2 \/ 10.0\r\nB.E. Electronics and Communication Engineering\r\nSKILLSET \r\nNivetha Thangavel\r\nJava\r\nPhysics\r\nSocial\r\n\r\nWORK EXPERIENCE\r\nTECHNICAL CONSULTANT\r\nTEMENOS, UK | Sep 2022 \u2013 Present\r\nInstalled and configured Temenos Data Hub (TDH) on-premises and in cloud environments using technologies such as Docker and Kubernetes.\r\nConfigured TDH clusters and nodes, including network settings, security, and backup and recovery procedures.\r\nMonitored TDH performance and health using tools such as Prometheus, Grafana, and ELK stack.\r\nMaintained TDH by applying patches and upgrades, ensuring compatibility with other systems, and troubleshooting issues.\r\nDesigned, developed, and maintained data pipelines to collect, process, and transform data from various sources using technologies such as Apache Kafka, Apache NiFi, and Python.\r\nCollaborated with data scientists and business analysts to understand their data needs and helped them gain insights from the data using SQL and Tableau.\r\nProvided technical consulting to clients, helping them to design and implement data solutions that meet their specific needs.\r\nContainerized applications and services using Docker and deployed them to Kubernetes clusters.\r\nImplemented and configured monitoring and alerting using Prometheus and Grafana to ensure system availability and performance.\r\nAutomated manual operation activities using Ansible and Terraform to streamline the deployment and configuration of infrastructure and applications.\r\nSITE RELIABILITY ENGINEER - DEVOPS\r\nTEMENOS, India | Sep 2021 \u2013 Apr 2022\r\nCreated CI\/CD Pipelines in Azure DevOps environments by providing their dependencies and tasks. \r\nAlso have experience on implementing and managing continuous delivery systems and methodologies on Azure and created END-END Automation with CI Procedures using Jenkins &amp; automated Maven builds by integrating them with Continuous Integration tools Jenkins.\r\nProfessional in designing, developing and enhancing automated scripts using Python.\r\nWorked in Dynatrace, Splunk and Azure log analytics - Designing and Developing dashboards.\r\nUsed Kubernetes to orchestrate the deployment, scaling and management of Docker Containers.\r\nExperience in all phases of software development life cycle SDLC, which includes User Interaction, Business Analysis, Design, Development, Implementation, Integration, Documentation, Testing and Deployment.\r\nDATA ENGINEERING\r\nApache Hadoop, Apache Spark, Apache Kafka\r\nOracle, MySQL, PostgreSQL, Microsoft SQL Server\r\nMongoDB\r\nETL (extract, transform, load) processes, data modeling\r\nTableau, Power BI\r\nMachine learning &amp; AI\r\nEXTRA CURRICULAR\r\nAthletics Club \u2013 Lead\r\nFitness Sessions\r\nHave ideated, designed 90 days fitness event, presented to Decathlon India and bagged sponsorship for corporate level national event.\r\nINTERN PROJECTS\r\nAdaptive learning gamification\r\nAI bot for job apply procedure\r\nInfluencer analytics by  integrating real time data from social media platforms\r\nASSOCIAT\r\nCOGNIZANT, India| Feb 2021 - Sep 2021\r\nPerformed requirements gathering and design analysis for customer contact history for customer relationship management.\r\nWorked as business requirements analysts with subject matter experts to identify and understand requirements.\r\nSupported data warehouse projects with logical and physical data modeling in Oracle environment and assured accurate delivery of DDL to the development teams.\r\nDocumented the data requirements and system changes into detailed functional specifications.\r\nTook ownership of Source to Target Mapping and tracked and maintained changes.\r\nPerformed Extraction, Transformation and Loading (ETL) using Informatica power center.\r\nDesigned and implemented data profiling and data quality improvement solution to analyze, match, cleanse, and consolidate data before loading into data warehouse.\r\nExtensively used ERWin to design Logical, Physical Data Models, and Relational database and to perform forward\/reverse engineering.\r\nResponsible in designing new FACT or Dimension Tables to existing Models.\r\nCreated deployment workflows in Jenkins which includes pre release, release and Post release steps. Configured Git with Jenkins and schedule jobs using POLL SCM option.\r\nExpertise in Development of web-based applications in Java, J2EE (Servlets, JSP and JDBC), REST and Restful Web Services, SOAP, Spring Boot, Hibernate, XML, HTML, CSS; Application servers (IBM Websphere, Tomcat and Oracle Weblogic).\r\nSENIOR SYSTEMS ENGINEER \r\nINFOSYS LTD, India | Feb2018 - Feb 2021\r\nEnhanced suite of secure web applications for the clients to plan, manager and deliver insights of goods transport.\r\nDeveloped demands and supply of units for customers, managing orders, viewing the order details, automating demand based on supply of units using Java and Angular.\r\nInvolved in installing and configuring IBM Websphere server for development.\r\nExcellent skills in applying Continuous Integration, Continuous Deployment and Continuous Delivery processes &amp; tools [ Used Tools: Git, Maven, Jenkins, Apache Tomcat, Shell Scripting, Docker, etc.].\r\nPerformed root cause analysis to provide resolutions for production issues.\r\nAWARDS &amp; CERTIFICATIONS\r\nCompleted Google UX Designer Professional Certification.\r\nHave won Brand Ambassador of Infosys and Significant Contribution to Infosys award for the year 2020.\r\n",
+    "filename": "resumes\/09-Avinash_Vadivel Resume DevOps.docx",
     "place": [
         "\r\nCoventry, CV1 2DR"
     ]

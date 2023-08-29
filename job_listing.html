@@ -31,7 +31,7 @@
                 const urlParams = new URLSearchParams(queryString);
                 console.log(urlParams);
                 const isLoggedIn = urlParams.get('l');              
-                if(isLoggedIn) {
+                if(isLoggedIn && isLoggedIn != "false") {
                     document.getElementById("notlogged").style.display="none";
                     document.getElementById("islogged").style.display="block";
                     var loggedusername = localStorage.getItem('loggedUserName');  
@@ -85,14 +85,6 @@
                                             <li><a href="index.php">Home</a></li>
                                             <li><a href="job_listing.html">Find a Jobs </a></li>
                                             <li><a href="about.html">About</a></li>
-                                            <li><a href="#">Page</a>
-                                                <ul class="submenu">
-                                                    <li><a href="blog.html">Blog</a></li>
-                                                    <li><a href="single-blog.html">Blog Details</a></li>
-                                                    <li><a href="elements.html">Elements</a></li>
-                                                    <li><a href="job_details.html">job Details</a></li>
-                                                </ul>
-                                            </li>
                                             <li><a href="contact.html">Contact</a></li>
                                         </ul>
                                     </nav>

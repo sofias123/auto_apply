@@ -91,7 +91,7 @@ if ($data !== null) {
                 
                 if(localStorage.getItem('l') == '1') {
                     document.getElementById("notlogged").style.display="none";
-                    var loggedusername = <?php echo json_encode($_SESSION['loggedUserName']); ?>;
+                    var loggedusername = localStorage.getItem('loggedUserName');
                     var applyRole = localStorage.getItem('applyRole');
                     localStorage.setItem('applyRole', applyRole);
                     document.getElementById("loggeduser").innerHTML="Hi "+loggedusername;
