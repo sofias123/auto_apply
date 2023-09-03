@@ -3,9 +3,6 @@
 /**
  * @file
  * Class PdfParser
- * 
- * @author : Sebastien MALOT <sebastien@malot.fr>
- * @date : 2013-08-08
  *
  * References :
  * - http://www.mactech.com/articles/mactech/Vol.15/15.09/PDFIntro/index.php
